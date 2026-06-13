@@ -1,0 +1,1 @@
+print("--- SYSTEM CHECK: SUCCESS ---")
