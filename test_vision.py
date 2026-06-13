@@ -1,6 +1,6 @@
 import cv2
 
-# Load the image into an OpenCV matrix
+
 img = cv2.imread("sample.jpg")
 
 if img is not None:
