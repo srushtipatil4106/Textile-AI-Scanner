@@ -41,15 +41,12 @@ Visual Warning States: integrated state-dependent UI alerts (st.warning, st.erro
 Outcome: Successfully deployed a fully functional, responsive local web server at localhost:8501 that completely abstracts backend terminal code into a sleek, deployable enterprise prototype.
 
 ### DAY 5 :
-Objective: Upgrade the static dashboard to visually overlay neural network predictions directly onto the web application's image frame.
+Objective: Pivot roadmap to successfully implement a live webcam stream and an automated analytics tracker module.
 
 Key Implementations:
 
-Matrix Visual Processing: Integrated YOLO’s .plot() method to burn geometric box boundaries directly into the image array variables.
+Video Frame Capture: Replaced static file upload infrastructure with a live OpenCV cv2.VideoCapture(0) hardware hook.
 
-Color Space Alignment: Fixed inverted image color problems by using OpenCV (cv2.cvtColor) to translate BGR numpy arrays into RGB arrays so the web browser renders skin tones and clothing colors perfectly.
+Infinite Loop Processing: Programmed a high-speed execution loop to continuously grab, analyze, and display video frames seamlessly.
 
-UI Noise Reduction: Discovered the difference between deep learning outputs and frontend filters. Used labels=False parameter logic to suppress generic pre-trained tags (person, potted plant), allowing custom code mappings to handle business analytics cleanly.
-
-Outcome: Created an enterprise-ready dashboard that shows users exactly where anomalies are located without overwhelming them with chaotic raw data labels.
-
+Live Metric Sync: Connected Streamlit's dynamic component markers (st.empty()) to automatically display total item counts directly on the user dashboard.
