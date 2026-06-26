@@ -31,7 +31,11 @@ Outcome: The terminal successfully processed the pixel grid, ignored background 
 📅 Day 4: Full-Stack Interface Engineering via StreamlitObjective
 : Wrap the backend computer vision scripts into a visual, interactive web application framework suitable for non-technical production operators.
 Key Implementations:Frontend Design: Engineered a web dashboard using the Streamlit framework, introducing UI/UX components like st.file_uploader() for seamless image drag-and-drop capability.
+
 System Environment Alignment: Diagnosed and resolved standard Windows multi-Python path conflicts (ModuleNotFoundError) by enforcing local dependency updates explicitly using the py -m pip install execution package standard.
+
 Dynamic Data Pipeline: Bound the frontend UI directly to the backend vision layer. Uploaded images are converted live into NumPy arrays ($H \times W \times C$), evaluated by the model, and processed by the Day 3 filter matrix in real-time.
+
 Visual Warning States: integrated state-dependent UI alerts (st.warning, st.error, and st.success) to render clean, high-impact industrial report cards based on the inspection verdict.
+
 Outcome: Successfully deployed a fully functional, responsive local web server at localhost:8501 that completely abstracts backend terminal code into a sleek, deployable enterprise prototype.
