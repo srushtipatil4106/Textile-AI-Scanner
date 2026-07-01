@@ -14,14 +14,14 @@ for p in paths:
 
 def create_mock_images(img_dir, label_dir, count):
     for i in range(count):
-        # Create a plain gray fabric square
+        
         img = np.ones((640, 640, 3), dtype=np.uint8) * 180
-        # Draw a dark spot representing a defect
+        
         cv2.rectangle(img, (200, 200), (400, 400), (30, 30, 30), -1)
         
         cv2.imwrite(os.path.join(img_dir, f"fabric_{i}.jpg"), img)
         
-        # Write matching YOLO label coordinates
+        
         with open(os.path.join(label_dir, f"fabric_{i}.txt"), "w") as f:
             f.write("0 0.5 0.5 0.3 0.3\n")
 
