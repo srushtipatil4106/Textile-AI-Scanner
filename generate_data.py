@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-# Create clean folders inside your project
+
 paths = [
     "datasets/images/train",
     "datasets/images/val",
