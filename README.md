@@ -50,3 +50,11 @@ Video Frame Capture: Replaced static file upload infrastructure with a live Open
 Infinite Loop Processing: Programmed a high-speed execution loop to continuously grab, analyze, and display video frames seamlessly.
 
 Live Metric Sync: Connected Streamlit's dynamic component markers (st.empty()) to automatically display total item counts directly on the user dashboard.
+###DAY 6 
+Instead of just jumping blindly into data collection, we successfully built and verified a local, end-to-end AI training pipeline to ensure your environment is fully operational.
+
+generate_data.py: Created a data automation script that generates mock synthetic fabric images (gray canvases with simulated defect blocks) and automatically maps them to the structured YOLO layout directory (datasets/images and datasets/labels).
+
+dataset.yaml: Created the core configuration file that acts as a map for the YOLO architecture, telling the AI exactly where to look for training data and what the defect class index represents.
+
+train_ai.py: Built the execution engine using the ultralytics library. We successfully initiated a lightweight, local 3-epoch training loop using yolov8n.pt to prove your computer can compute a training model without crashing.
